@@ -3,9 +3,9 @@ body{
     background-color: #777;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 1080px;
+    max-width: 960px;
     margin: 0 auto !important;
-    float: none !important;
+    
 
 }
 
@@ -13,15 +13,96 @@ header, nav, footer {
     background-color: #ebebeb;
     padding-bottom: 10px;
     padding-top: 10px;
-    margin: 20px;
-    width: 960;
+    margin-bottom: 10px;
 
 }
-
 header {
-    text-align: center;
-    align: center
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 15px;
+    color: #777;
 }
-section, article, aside {
+
+nav {
+    padding-top:15px;
+    padding-bottom: 15px;
+    text-align: right;  
+}
+
+a{
+    margin:10px;
+    color: #777;
+}
+
+
+section, aside {
     background-color: #ebebeb;
+    color:#777;
+    
+}
+
+div{
+    margin-bottom: 15px;
+    overflow: auto;
+}
+
+p, ul{
+    background-color: #ebebeb;
+    color:#777;
+    padding:10px;   
+    font-weight: 500;
+}
+
+section{
+    float: left;
+    
+    width: 465px;
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+h1, h2, h3{
+    font-weight:bold;
+    font-size: 1.2em;
+    padding: 5px;
+    margin-top:5px;
+}
+
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+    margin-left: 5px;
+}
+
+article {
+    background-color: #777;
+    padding:15px;
+    margin-top:20px;
+    text-align: justify; 
+    color:#ebebeb;
+    
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+aside{
+    float: right;    
+    padding:15px;
+    width: 425px;
+    padding-bottom:62%;
+    
+}
+
+footer {
+    clear: both;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-right:15px;
+    text-align: right;
+    margin-top: 15px;
+    color: #777
 }
