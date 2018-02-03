@@ -55,8 +55,7 @@ p, ul{
 
 section{
     float: left;
-    
-    width: 465px;
+    min-width: 465px;
     padding-top:25px;
     padding-bottom: 25px;
     padding-left:15px;
